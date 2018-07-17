@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+	id="WebApp_ID" version="3.1"> <servlet> <servlet-name>FormCheck</servlet-name> 
+	<servlet-class>servdb.Signin</servlet-class> </servlet> <servlet-mapping> 
+	<servlet-name>FormCheck</servlet-name> <url-pattern>/submit/*</url-pattern> 
+	</servlet-mapping> <servlet> <servlet-name>Showdb</servlet-name> <servlet-class>servdb.Show</servlet-class> 
+	</servlet> <servlet-mapping> <servlet-name>Showdb</servlet-name> <url-pattern>/show/*</url-pattern> 
+	</servlet-mapping> <servlet> <servlet-name>logout</servlet-name> <servlet-class>servdb.Logout</servlet-class> 
+	</servlet> <servlet-mapping> <servlet-name>logout</servlet-name> <url-pattern>/lout/*</url-pattern> 
+	</servlet-mapping> <servlet> <servlet-name>Deleteunm</servlet-name> <servlet-class>servdb.Deleteu</servlet-class> 
+	</servlet> <servlet-mapping> <servlet-name>Deleteunm</servlet-name> <url-pattern>/del/*</url-pattern> 
+	</servlet-mapping> </web-app> -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>blogin</servlet-name>
+    <servlet-class>librarynew.Loginb</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>blogin</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>bissue</servlet-name>
+    <servlet-class>librarynew.Bookis</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bissue</servlet-name>
+    <url-pattern>/issue</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>breturn</servlet-name>
+    <servlet-class>librarynew.Bookre</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>breturn</servlet-name>
+    <url-pattern>/return</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>bview</servlet-name>
+    <servlet-class>librarynew.Bookvi</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bview</servlet-name>
+    <url-pattern>/view</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>cadd</servlet-name>
+    <servlet-class>librarynew.Custadd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cadd</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>cdel</servlet-name>
+    <servlet-class>librarynew.Custdel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cdel</servlet-name>
+    <url-pattern>/del</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>cupd</servlet-name>
+    <servlet-class>librarynew.Custup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cupd</servlet-name>
+    <url-pattern>/upd</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>call</servlet-name>
+    <servlet-class>librarynew.Custall</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>call</servlet-name>
+    <url-pattern>/all</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ball</servlet-name>
+    <servlet-class>librarynew.Bookai</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ball</servlet-name>
+    <url-pattern>/ball</url-pattern>
+  </servlet-mapping>
+</web-app>
